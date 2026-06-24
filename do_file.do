@@ -7,3 +7,6 @@ drop ethnicity
 drop if number == "03s"
 
 tab married employmentstatus
+
+
+replace weightmostrecentbeforerando = floor(weightmostrecentbeforerando)
